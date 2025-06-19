@@ -4,7 +4,7 @@ function CustomerSection() {
   return (
     <div>
         <video
-        src="public\assets\customer-section.mp4"
+        src="public/assets/customer-section.mp4"
         autoPlay
         muted
         loop

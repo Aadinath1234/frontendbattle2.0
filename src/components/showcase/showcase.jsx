@@ -4,7 +4,7 @@ function showcase() {
   return (
     <div>
       <video
-        src="public\assets\showcase work.mp4"
+        src="public/assets/showcase work.mp4"
         autoPlay
         muted
         loop
