@@ -2,6 +2,7 @@ Project LInk: https://frontendbattle2.netlify.app/
 
 
 Directory structure:
+
 └── aadinath1234-frontendbattle2.0/
     ├── README.md
     ├── eslint.config.js
