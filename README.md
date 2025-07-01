@@ -1,37 +1,37 @@
-Project LInk: https://frontendbattle2.netlify.app/
+Project Link: https://frontendbattle2.netlify.app/
 
-
-Directory structure:
-
-└── aadinath1234-frontendbattle2.0/
-    ├── README.md
-    ├── eslint.config.js
-    ├── index.html
-    ├── package.json
-    ├── postcss.config.js
-    ├── tailwind.config.js
-    ├── vite.config.js
-    └── src/
-        ├── App.css
-        ├── App.jsx
-        ├── index.css
-        ├── main.jsx
-        └── components/
-            ├── Carousel/
-            │   └── Carousel.jsx
-            ├── CustomerSection/
-            │   └── CustomerSection.jsx
-            ├── Footer/
-            │   └── Footer.jsx
-            ├── Homepage/
-            │   └── Homepage.jsx
-            ├── Navbar/
-            │   └── Navbar.jsx
-            ├── Parallex/
-            │   └── Parallex.jsx
-            ├── showcase/
-            │   └── showcase.jsx
-            ├── Stats/
-            │   └── Stats.jsx
-            └── Testimonials/
-                └── Testimonials.jsx
+aadinath1234-frontendbattle2.0/
+│
+├── index.html
+├── package.json
+├── vite.config.js
+├── eslint.config.js
+├── postcss.config.js
+├── tailwind.config.js
+├── README.md
+│
+└── src/
+    ├── App.jsx
+    ├── App.css
+    ├── main.jsx
+    ├── index.css
+    │
+    └── components/
+        ├── Navbar/
+        │   └── Navbar.jsx
+        ├── Homepage/
+        │   └── Homepage.jsx
+        ├── Carousel/
+        │   └── Carousel.jsx
+        ├── CustomerSection/
+        │   └── CustomerSection.jsx
+        ├── Testimonials/
+        │   └── Testimonials.jsx
+        ├── Stats/
+        │   └── Stats.jsx
+        ├── Parallex/
+        │   └── Parallex.jsx
+        ├── Footer/
+        │   └── Footer.jsx
+        └── Showcase/
+            └── Showcase.jsx
