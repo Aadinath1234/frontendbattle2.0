@@ -1,5 +1,7 @@
 Project Link: https://frontendbattle2.netlify.app/
+# Tech stack: #React #Tailwindcss #framerMotion 
 
+# Folder Structure: 
 aadinath1234-frontendbattle2.0/
 │
 ├── index.html
