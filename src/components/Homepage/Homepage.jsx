@@ -5,7 +5,7 @@ function Homepage() {
     <div>
       
       <video
-        src="public/assets/homepage.mp4"
+        src="/assets/homepage.mp4"
         autoPlay
         muted
         loop

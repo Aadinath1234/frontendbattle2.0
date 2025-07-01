@@ -4,7 +4,7 @@ function Testimonials() {
   return (
     <div>
       <video
-        src="public/assets/testimonials.mp4"
+        src="/assets/testimonials.mp4"
         autoPlay
         muted
         loop

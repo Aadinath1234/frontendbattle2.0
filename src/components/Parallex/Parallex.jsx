@@ -4,7 +4,7 @@ function Parallex() {
   return (
     <div>
       <video
-        src="public/assets/parallax animation.mp4"
+        src="/assets/parallax animation.mp4"
         autoPlay
         muted
         loop
