@@ -26,7 +26,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-white text-black dark:bg-black dark:text-white transition-colors duration-300">
+    <div className="min-h-screen bg-white  text-black dark:bg-black dark:text-white transition-colors duration-300">
       {loading ? (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black">
           <video
