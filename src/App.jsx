@@ -8,10 +8,20 @@ import Showcase from "./components/showcase/showcase";
 import Stats from "./components/Stats/Stats";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Footer from "./components/Footer/Footer";
+import PopupModal from "./components/PopupModal/PopupModal";
 
 function App() {
   const [loading, setLoading] = useState(true);
   const videoRef = useRef(null);
+  const [showModal, setShowModal] = useState(true); 
+  const [popupContent, setPopupContent]= useState({
+       type: "image", 
+       src: "/assets/Ads.png", 
+       text: "Welcome to our landing page ! ",
+        
+  }); 
+
+
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -22,7 +32,8 @@ function App() {
   }, []);
 
   const handleVideoEnd = () => {
-    setLoading(false);
+    setLoading(false); 
+    setShowModal(true); 
   };
 
   return (
@@ -41,6 +52,13 @@ function App() {
       ) : (
         <>
           <Navbar />
+          <PopupModal
+            isOpen={showModal} 
+            onClose={() => setShowModal(false)} 
+            content={popupContent} 
+            className="w-full h-full object-contain rounded-2xl"
+           
+           />
           <div id="home">
             <Homepage />
           </div>

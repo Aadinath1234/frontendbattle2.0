@@ -24,6 +24,13 @@
   color: white;
 }
 
+.dark .App-header {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+
+
 .App-link {
   color: #61dafb;
 }
