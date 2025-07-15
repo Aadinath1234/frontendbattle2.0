@@ -3,16 +3,6 @@ import React from "react";
 function Testimonials() {
   return (
     <div>
-      {/* <video
-        src="/assets/testimonials.mp4"
-        autoPlay
-        muted
-        loop
-        playsInline
-        style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
-      >
-        Your browser does not support the video tag.
-      </video> */}
       <div className="p-12">
         <div className="collapse collapse-plus bg-base-100 border border-base-300">
           <input type="radio" name="my-accordion-3" defaultChecked />
